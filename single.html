@@ -1,0 +1,269 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Miclink Intelligence Tech</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+        $(document).ready(function() {
+            $(".dropdown img.flag").addClass("flagvisibility");
+
+            $(".dropdown dt a").click(function() {
+                $(".dropdown dd ul").toggle();
+            });
+                        
+            $(".dropdown dd ul li a").click(function() {
+                var text = $(this).html();
+                $(".dropdown dt a span").html(text);
+                $(".dropdown dd ul").hide();
+                $("#result").html("Selected value is: " + getSelectedValue("sample"));
+            });
+                        
+            function getSelectedValue(id) {
+                return $("#" + id).find("dt a span.value").html();
+            }
+
+            $(document).bind('click', function(e) {
+                var $clicked = $(e.target);
+                if (! $clicked.parents().hasClass("dropdown"))
+                    $(".dropdown dd ul").hide();
+            });
+
+
+            $("#flagSwitcher").click(function() {
+                $(".dropdown img.flag").toggleClass("flagvisibility");
+            });
+        });
+     </script>
+     <!----details-product-slider--->
+				<!-- Include the Etalage files -->
+					<link rel="stylesheet" href="css/etalage.css">
+					<script src="js/jquery.etalage.min.js"></script>
+				<!-- Include the Etalage files -->
+				<script>
+						jQuery(document).ready(function($){
+			
+							$('#etalage').etalage({
+								thumb_image_width: 300,
+								thumb_image_height: 400,
+								
+								show_hint: true,
+								click_callback: function(image_anchor, instance_id){
+									alert('Callback example:\nYou clicked on an image with the anchor: "'+image_anchor+'"\n(in Etalage instance: "'+instance_id+'")');
+								}
+							});
+							// This is for the dropdown list example:
+							$('.dropdownlist').change(function(){
+								etalage_show( $(this).find('option:selected').attr('class') );
+							});
+
+					});
+				</script>
+				<!----//details-product-slider--->	
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				 <div class="header-left">
+					 <div class="logo">
+						<a href="index.html"><img src="images/logo.png" width="200" alt=""/></a>
+					 </div>
+					 <div class="menu">
+						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
+						    <ul class="nav" id="nav">
+						    	<li><a href="shop.html">Product</a></li>
+						    	<li><a href="experiance.html">About</a></li>
+								<li><a href="contact.html">Contact</a></li>								
+								<div class="clear"></div>
+							</ul>
+							<script type="text/javascript" src="js/responsive-nav.js"></script>
+				    </div>							
+	    		    <div class="clear"></div>
+	    	    </div>
+	            <div class="header_right">
+	    		  <!-- start search-->
+				      <div class="search-box">
+							<div id="sb-search" class="sb-search">
+							
+							</div>
+						</div>
+						<!----search-scripts---->
+						<script src="js/classie.js"></script>
+						<script src="js/uisearch.js"></script>
+						<script>
+							new UISearch( document.getElementById( 'sb-search' ) );
+						</script>
+						<!----//search-scripts---->
+				 
+						
+						  <div class="clear"></div>
+						</ul>
+					 </li>
+				   </ul>
+		           <div class="clear"></div>
+	       </div>
+	      </div>
+		 </div>
+	    </div>
+	</div>
+     <div class="main">
+      <div class="shop_top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 single_left">
+				   <div class="single_image">
+					     <ul id="etalage">
+							<li>
+								
+									<img class="etalage_thumb_image" src="images/108b.png" />
+									<img class="etalage_source_image" src="images/108b.png" />
+								</a>
+							</li>
+							<li>
+								<img class="etalage_thumb_image" src="images/108w.png" />
+								<img class="etalage_source_image" src="images/108w.png" />
+							</li>
+						</ul>
+					    </div>
+				        <!-- end product_slider -->
+				        <div class="single_right">
+				        	<h3>M108</h3>
+				        	<p class="m_10">Mouse Tipe M108 Dengan Keakuratan Pengenalan Suara Sebesar 98%. Dilengkapi Dengan Fitur Seperti Voice Inpute, Voice Translation dan Voice Search. Cocok Digunakan Ketika Anda Sedang Malas Mengetik, Serta Mempermudah Pekerjaan Anda</S></p>
+				        	
+				       
+							<div class="social_buttons">
+								<h4>View More In E-commerce</h4>
+								<a href="https://www.lazada.co.id/shop/miclink-intelligence-store/?spm=a2o4j.pdp_revamp.seller.1.59c16f1esFVyI1&itemId=7866542206&channelSource=pdp"><button type="button" class="btn1 btn1-default1 btn1-pinterest" onclick="">Lazada
+								  </button></a>
+								<a href="https://shopee.co.id/miclinkofficialstore?entryPoint=ShopBySearch&searchKeyword=miclink"><button type="button" class="btn1 btn1-default1 btn1-twitter" onclick="">
+					              <i class="icon-youtube"></i> Shopee
+					            </button></a>
+								<a href="https://www.tiktok.com/@miclinkintelligencetch"><button type="button" class="btn1 btn1-default1 btn1-facebook" onclick="">
+					              Tiktok
+					            </button></a>
+								<a href="https://www.tokopedia.com/miclink-store"><button type="button" class="btn1 btn1-default1 btn1-google" onclick="">Tokopedia
+					            </button></a>
+					        </div>
+				        </div>
+				        <div class="clear"> </div>
+				</div>
+			
+			</div>
+
+			<div class="desc">
+			   	<h4><b>DESCRIPTION</b></h4>
+			   	<p>Mouse AI Miclink M108, dilengkapi dnegan fitur cerdas seperti:</p>
+				<p>1. Voice Input</p>
+				<p>2. Voice Search</p>
+				<p>3. Voice Translate dengan 120 Bahasa</p> 
+				<p>4. Via Bluetooth dan USB/Dongle</p>
+				<p>5. Rechargeable</p>
+				<p>6. Wireless 10 Meter</p>
+					
+				<p><b>2.4G + Bluetooth 5.0 nirkabel, mudah untuk ganti mode, dan tidak perlu memasangkan ulang.</b></p>
+			</div>
+
+			<div class="row">
+				<h4 class="m_11">Related Products in the same Category</h4>
+				<div class="col-md-4 product1">
+					<img src="images/m995.png" class="img-responsive" alt=""/> 
+					<div class="shop_desc"><a href="m95.html">
+					</a><h3><a href="m95.html"></a><a href="m95.html">Mouse M95</a></h3>
+					<p><b>Deskripsi Produk</b></p>
+					<span class="actual">Mouse yang memiliki fitur AI memudahkan pekerjaan di manapun dan kapanpun.</span>
+					<ul class="buttons">
+					<li class="shop_btn"><a href="m95.html">Baca Lebih Lanjut</a></li>
+					<div class="clear"></div>
+					</ul>
+				</div>
+				</div>
+				<div class="col-md-4 product1">
+					<img src="images/rulink.png" class="img-responsive" alt=""/> 
+					<div class="shop_desc"><a href="mr08.html">
+					</a><h3><a href="mr08.html"></a><a href="mr08.html">Mouse MR08</a></h3>
+					<p><b>Deskripsi Produk</b></p>
+					<span class="actual">Mouse yang memiliki fitur AI memudahkan pekerjaan di manapun dan kapanpun.</span>
+					<ul class="buttons">
+					<li class="shop_btn"><a href="mr08.html">Baca Lebih Lanjut</a></li>
+					<div class="clear"></div>
+					</ul>
+				</div>
+				</div>
+				<div class="col-md-4">
+					<img src="images/m7.png" class="img-responsive" alt=""/> 
+						<div class="shop_desc"><a href="m95.html">
+					</a><h3><a href="m7.html"></a><a href="m7.html">Mouse M7</a></h3>
+					<p><b>Deskripsi Produk</b></p>
+					<span class="actual">Mouse yang memiliki fitur AI memudahkan pekerjaan di manapun dan kapanpun.</span>
+					<ul class="buttons">
+					<li class="shop_btn"><a href="m7.html">Baca Lebih Lanjut</a></li>
+					<div class="clear"></div>
+					</ul>
+				</div>
+				</div>
+			</div>	
+	     </div>
+	   </div>
+	  </div>
+	  <div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<ul class="footer_box">
+						<h4>Products</h4>
+						<li><a href="single.html">MICLINK M-108</a></li>
+						<li><a href="m95.html">MICLINK M-95</a></li>
+						<li><a href="m7.html">MICLINK M-7</a></li>
+                        <li><a href="mr08.html">RULINK MR-08</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer_box">
+						<h4>Contact</h4>
+						<li><a href="https://wa.me//6281110012358">Whatsapp</a></li>
+						<li><a href="https://www.tiktok.com/@miclinkintelligencetch">Tiktok</a></li>
+						<li><a href="https://www.instagram.com/miclinkintelligence/">Instagram</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer_box">
+						<h4>E-COMMERCE</h4>
+						<li><a href="https://shopee.co.id/miclinkofficialstore?entryPoint=ShopBySearch&searchKeyword=miclink">SHOPEE</a></li>
+						<li><a href="https://www.tiktok.com/@miclinkintelligencetch">TIKTOK</a></li>
+						<li><a href="https://www.tokopedia.com/miclink-store">TOKOPEDIA</a></li>
+						<li><a href="https://www.lazada.co.id/shop/miclink-intelligence-store/?spm=a2o4j.pdp_revamp.seller.1.59c16f1esFVyI1&itemId=7866542206&channelSource=pdp">LAZADA</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer_box">
+						<ul class="social">	
+						  <li class="youtube"><a href="https://www.youtube.com/@MICLINKOFFICIAL"><span> </span></a></li>
+						  <li class="instagram"><a href="https://www.instagram.com/miclinkintelligence/"><span> </span></a></li>	
+						  <li class="facebook"><a href="https://www.facebook.com/people/Miclink-Intelligence/pfbid05qzaJoqwEbNH8zHBzBNSsoKqEx2D3chyWRVsCyxmk2ECg5vsmgjYGLr93Dkw9Vqil/"><span> </span></a></li>										  				
+						</ul>
+					   </ul>
+				</div>
+			</div>
+			<div class="row footer_bottom">
+				<div class="copy">
+				   <p>© 2024 by <a href="http://w3layouts.com" target="_blank">Yasha</a></p>
+				</div>
+			   </div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>	
+</html>
